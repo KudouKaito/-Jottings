@@ -57,3 +57,5 @@ fi
 if [ $vimlog == 1 ]; then
     vim $logfile
 fi
+echo "$(date)"
+echo 'Well!'
